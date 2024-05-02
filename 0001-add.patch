@@ -1,0 +1,31 @@
+From 1b51501c25293b57b182d0270f04e39e14a283a9 Mon Sep 17 00:00:00 2001
+From: user424242420 <142989209+user424242420@users.noreply.github.com>
+Date: Thu, 2 May 2024 21:16:41 +0300
+Subject: [PATCH] add
+
+---
+ config.ld | 1 +
+ nvim      | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 120000 nvim
+
+diff --git a/config.ld b/config.ld
+index 61784df..8072b14 100644
+--- a/config.ld
++++ b/config.ld
+@@ -5,3 +5,4 @@ format = 'markdown'
+ file='lua'
+ dir='docs'
+ no_space_before_args=true
++langmap=йЙцЦуУкКеЕнНгГшШщЩзЗхХъЪфФыЫвВаАпПрРоОлЛдДжЖэЭяЯчЧсСмМиИтТьЬбБюЮ.\\,;qQwWeErRtTyYuUiIoOpP[{]}aAsSdDfFgGhHjJkKlL;:'\"zZxXcCvVbBnNmM\\,<.>/?
+diff --git a/nvim b/nvim
+new file mode 120000
+index 0000000..44e0dfc
+--- /dev/null
++++ b/nvim
+@@ -0,0 +1 @@
++nvim
+\ No newline at end of file
+-- 
+2.45.0
+
